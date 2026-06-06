@@ -591,7 +591,7 @@ jantar/
 
 ## Future Plan — From PoC to National-Scale Agentic Layer
 
-This project implements the whitepaper's **Phase 0 (Pilot)**: proving an agent can complete real citizen journeys end-to-end using plain language across 22 Indian languages. Below is the concrete execution plan for subsequent phases, derived from the [NIC Agentic Layer Whitepaper](../NIC_Agentic_Layer_Whitepaper.md).
+This project implements the whitepaper's **Phase 0 (Pilot)**: proving an agent can complete real citizen journeys end-to-end using plain language across 22 Indian languages. Below is the concrete execution plan for subsequent phases.
 
 ---
 
