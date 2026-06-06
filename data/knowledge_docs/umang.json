@@ -1,0 +1,23 @@
+{
+  "id": "doc-umang",
+  "title": "UMANG - Unified Mobile Application for New-age Governance",
+  "source_url": "https://web.umang.gov.in/",
+  "effective_date": "2024-01-01",
+  "jurisdiction": "central",
+  "domain": "general",
+  "language": "en",
+  "sections": [
+    {
+      "section_path": "UMANG > Overview",
+      "content": "Single mobile app for 1,700+ government services from 300+ departments. Available in 13 languages. Services: EPFO (PF balance/claim), DigiLocker, PMKISAN status, Aadhaar, passport, GSTN, land records, scholarship status, train/bus booking, utility bills, Ayushman eligibility check."
+    },
+    {
+      "section_path": "UMANG > Key Services",
+      "content": "Popular services: (1) EPFO - PF passbook, claim status, UAN activation. (2) Income Tax - refund status, PAN verification. (3) PM-KISAN - beneficiary status. (4) Aadhaar - update request, download. (5) Passport - application status. (6) DigiLocker - access documents. (7) CBSE results. (8) Land records (some states). (9) Blood bank search. (10) Crop insurance status."
+    },
+    {
+      "section_path": "UMANG > How to Register",
+      "content": "Download UMANG app (Android/iOS) or visit web.umang.gov.in. Register with mobile + Aadhaar OTP. PIN-based login after registration. No documents needed. All services accessible from one account."
+    }
+  ]
+}

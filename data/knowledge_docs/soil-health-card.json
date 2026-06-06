@@ -1,0 +1,23 @@
+{
+  "id": "doc-soil-health-card",
+  "title": "Soil Health Card Scheme",
+  "source_url": "https://soilhealth.dac.gov.in/",
+  "effective_date": "2024-01-01",
+  "jurisdiction": "central",
+  "domain": "agriculture",
+  "language": "en",
+  "sections": [
+    {
+      "section_path": "Soil Health Card > Overview",
+      "content": "Free soil testing and recommendations for every farm holding. Issued every 2 years. Tests 12 parameters: N, P, K, S, Zn, Fe, Cu, Mn, Bo, pH, EC, Organic Carbon. Card provides crop-wise fertilizer recommendations. Over 23 crore cards distributed. Helps reduce fertilizer overuse and improve yield."
+    },
+    {
+      "section_path": "Soil Health Card > How to Get",
+      "content": "Automatic: soil samples collected by state agriculture dept staff from farms in a grid pattern. Can also request via: (1) Visit soil testing lab. (2) Contact block agriculture officer. (3) Apply at soilhealth.dac.gov.in (enter survey number/khasra). Card available online via portal (enter Aadhaar/mobile/card number)."
+    },
+    {
+      "section_path": "Soil Health Card > Using the Card",
+      "content": "Card shows: current nutrient status of soil (deficient/sufficient/excess for each parameter), recommended doses of fertilizers for 6 major crops grown in the area. Follow recommendations to: reduce input cost by 10-15%, improve soil quality over time, get better crop yields. Update: new card every 2 years with fresh testing."
+    }
+  ]
+}

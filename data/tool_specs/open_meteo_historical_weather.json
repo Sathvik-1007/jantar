@@ -1,0 +1,25 @@
+{
+  "name": "open_meteo_historical_weather",
+  "description": "Historical weather data for any Indian location from 1940 to present. Free, no key.",
+  "domain": "weather",
+  "auth_method": "open",
+  "base_url": "https://archive-api.open-meteo.com",
+  "endpoint": "/v1/archive",
+  "http_method": "GET",
+  "input_schema": {
+    "city": "string",
+    "start_date": "string (YYYY-MM-DD)",
+    "end_date": "string (YYYY-MM-DD)"
+  },
+  "output_schema": {
+    "daily_temperature": "array",
+    "daily_rain": "array"
+  },
+  "examples": [
+    "Rainfall in Mumbai last monsoon?",
+    "पिछले साल दिल्ली में कितनी गर्मी पड़ी?"
+  ],
+  "contextual_description": "Historical weather archive for India from 1940 to present. Temperature, rainfall, wind data. Useful for climate analysis, monsoon patterns, historical comparisons.",
+  "rate_limit": 1000,
+  "sensitivity": "low"
+}

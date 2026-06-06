@@ -1,0 +1,27 @@
+{
+  "id": "doc-voter-id",
+  "title": "Voter ID (EPIC) - Election Commission",
+  "source_url": "https://voters.eci.gov.in/",
+  "effective_date": "2024-01-01",
+  "jurisdiction": "central",
+  "domain": "identity",
+  "language": "en",
+  "sections": [
+    {
+      "section_path": "Voter ID > Overview",
+      "content": "Electoral Photo Identity Card (EPIC) issued by Election Commission of India. Required for voting. Also accepted as ID/address proof. Linked to specific polling booth and constituency. Available as physical card and e-EPIC (digital, downloadable)."
+    },
+    {
+      "section_path": "Voter ID > Registration (Form 6)",
+      "content": "Apply online at voters.eci.gov.in or NVSP app. Fill Form 6 (new registration). Need: age proof (18+ on qualifying date 1 Jan/1 Apr/1 Jul/1 Oct), address proof, passport photo. BLO (Booth Level Officer) may visit for verification. EPIC issued within 15-30 days."
+    },
+    {
+      "section_path": "Voter ID > Corrections & Transfer",
+      "content": "Form 8: correction in entries (name/photo/address/DOB). Form 6A: overseas voter registration. Form 7: objection to inclusion. Transfer: if moved to new constituency, apply fresh Form 6 in new area + Form 7 to delete from old. All online via voters.eci.gov.in."
+    },
+    {
+      "section_path": "Voter ID > e-EPIC",
+      "content": "Download digital voter ID from voters.eci.gov.in after face-matching verification. Valid for identification. Contains QR code with encrypted details. Available on DigiLocker also. No need to carry physical card if e-EPIC on phone."
+    }
+  ]
+}

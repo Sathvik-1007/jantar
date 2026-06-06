@@ -1,0 +1,25 @@
+{
+  "name": "sarvam_stt",
+  "description": "Speech/audio to text transcription. 23 Indian languages with auto-detection. Handles accents and code-mixing.",
+  "domain": "language",
+  "auth_method": "header",
+  "base_url": "https://api.sarvam.ai",
+  "endpoint": "/speech-to-text",
+  "http_method": "POST",
+  "input_schema": {
+    "audio": "binary (WAV/MP3/OGG)",
+    "language": "string (optional, auto-detects)"
+  },
+  "output_schema": {
+    "transcript": "string",
+    "detected_language": "string"
+  },
+  "examples": [
+    "Convert audio to text",
+    "ऑडियो को टेक्स्ट में बदलो",
+    "Transcribe this voice message"
+  ],
+  "contextual_description": "Sarvam AI speech-to-text supporting 23 Indian languages with automatic language detection. Handles Indian accents, code-mixing, and regional dialects.",
+  "rate_limit": 100,
+  "sensitivity": "low"
+}

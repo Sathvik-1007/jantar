@@ -1,0 +1,27 @@
+{
+  "id": "doc-pmay",
+  "title": "PM Awas Yojana (PMAY) - Housing for All",
+  "source_url": "https://pmaymis.gov.in/",
+  "effective_date": "2024-01-01",
+  "jurisdiction": "central",
+  "domain": "housing",
+  "language": "en",
+  "sections": [
+    {
+      "section_path": "PMAY > Overview",
+      "content": "Affordable housing scheme. PMAY-Urban: interest subsidy on home loans for EWS/LIG/MIG. PMAY-Gramin: Rs 1.20 lakh (plain) to Rs 1.30 lakh (hilly) grant for house construction in rural areas. Target: Housing for All."
+    },
+    {
+      "section_path": "PMAY Urban > Eligibility & Benefits",
+      "content": "EWS (income up to Rs 3L): subsidy 6.5% on Rs 6L loan for 20 years (saving ~Rs 2.67 lakh). LIG (Rs 3-6L): same. MIG-I (Rs 6-12L): 4% on Rs 9L for 20 years. MIG-II (Rs 12-18L): 3% on Rs 12L for 20 years. Condition: no pucca house in any family member's name anywhere in India."
+    },
+    {
+      "section_path": "PMAY Gramin > How to Apply",
+      "content": "Selection via Socio Economic Caste Census (SECC) data. No direct application - beneficiaries identified by gram sabha from SECC priority list. Check eligibility: pmayg.nic.in > Stakeholders > IAY/PMAYG Beneficiary. If on list, contact gram panchayat/BDO. Money released in 3 installments linked to construction stages (verified by geo-tagged photos)."
+    },
+    {
+      "section_path": "PMAY > Required Documents",
+      "content": "Urban: Aadhaar, income proof, property documents, no-home declaration (self + spouse + dependent children), bank loan sanction letter. Rural: Aadhaar (mandatory for DBT), job card (MGNREGA), bank account, land ownership/allotment docs, SECC eligibility."
+    }
+  ]
+}

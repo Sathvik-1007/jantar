@@ -1,0 +1,27 @@
+{
+  "id": "doc-driving-licence",
+  "title": "Driving Licence - Parivahan/Sarathi",
+  "source_url": "https://sarathi.parivahan.gov.in/",
+  "effective_date": "2024-01-01",
+  "jurisdiction": "central",
+  "domain": "transport",
+  "language": "en",
+  "sections": [
+    {
+      "section_path": "Driving Licence > Types",
+      "content": "Types: (1) Learner Licence (LL) - valid 6 months. (2) Permanent DL - valid 20 years or till age 50. (3) International Driving Permit - valid 1 year. Categories: MC 50cc, MC Ex50cc, LMV, LMV-TR, HMV, HGMV, HPMV."
+    },
+    {
+      "section_path": "Driving Licence > Required Documents",
+      "content": "For LL: age proof (Aadhaar/birth cert/10th marksheet), address proof, medical cert Form 1A (HMV), photos, fee Rs 200. For DL: LL (min 30 days old), same proofs, training certificate (optional), fee Rs 200-300."
+    },
+    {
+      "section_path": "Driving Licence > Online Process",
+      "content": "On sarathi.parivahan.gov.in: (1) Register with mobile+Aadhaar. (2) Fill form. (3) Upload docs. (4) Pay online. (5) Book LL test slot (online MCQ). (6) Pass LL test. (7) After 30 days book DL test. (8) Pass driving test at RTO. (9) DL dispatched via post/DigiLocker."
+    },
+    {
+      "section_path": "Driving Licence > Renewal",
+      "content": "Apply 1 year before to 1 year after expiry. Online via sarathi.parivahan.gov.in. Need: old DL, medical cert (mandatory after 40), address proof if changed, Rs 200. No driving test for renewal. Smart card dispatched 7-15 days."
+    }
+  ]
+}

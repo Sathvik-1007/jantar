@@ -1,0 +1,27 @@
+{
+  "id": "doc-upi",
+  "title": "UPI - Unified Payments Interface",
+  "source_url": "https://www.npci.org.in/what-we-do/upi/product-overview",
+  "effective_date": "2024-01-01",
+  "jurisdiction": "central",
+  "domain": "finance",
+  "language": "en",
+  "sections": [
+    {
+      "section_path": "UPI > Overview",
+      "content": "Real-time payment system by NPCI. 14+ billion transactions/month (2024). Free for person-to-person. Works via VPA (virtual payment address like name@upi). Supports: P2P, P2M, recurring mandates, IPO, FASTag recharge, insurance, international (Singapore, UAE, France, Sri Lanka)."
+    },
+    {
+      "section_path": "UPI > UPI Lite & UPI 123PAY",
+      "content": "UPI Lite: small-value offline payments (up to Rs 500/txn, Rs 2000 wallet). No PIN needed. Works without internet connectivity once loaded. UPI 123PAY: for feature phones without internet. Dial *99# for USSD-based payments. IVR-based payment for non-smartphone users."
+    },
+    {
+      "section_path": "UPI > For Merchants",
+      "content": "Zero MDR for transactions up to Rs 2,000. Dynamic QR via any PSP app. UPI Autopay for recurring (subscriptions, EMIs, SIPs - up to Rs 1 lakh). Settlement: T+0 or T+1. UPI for IPO applications. Integration: PSP APIs, BharatPe aggregation, PhonePe/Paytm business accounts."
+    },
+    {
+      "section_path": "UPI > Transaction Limits",
+      "content": "Standard: Rs 1 lakh/transaction. Enhanced: Rs 2 lakh (capital markets, insurance, education, hospitals). Rs 5 lakh (tax payments, IPO). Credit card on UPI: available via RuPay credit cards linked to UPI. Daily limit: bank-dependent (typically Rs 1-2 lakh). Failed transactions auto-refund in 48 hours."
+    }
+  ]
+}

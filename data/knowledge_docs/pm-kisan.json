@@ -1,0 +1,27 @@
+{
+  "id": "doc-pm-kisan",
+  "title": "PM-KISAN Samman Nidhi Yojana",
+  "source_url": "https://pmkisan.gov.in/",
+  "effective_date": "2024-01-01",
+  "jurisdiction": "central",
+  "domain": "agriculture",
+  "language": "en",
+  "sections": [
+    {
+      "section_path": "PM-KISAN > Overview",
+      "content": "Income support of Rs 6,000/year to all landholding farmer families. Paid in 3 installments of Rs 2,000 via DBT. Launched 24 Feb 2019. Over 11 crore beneficiaries."
+    },
+    {
+      "section_path": "PM-KISAN > Eligibility",
+      "content": "Eligible: All landholding farmer families with cultivable land. Exclusions: institutional landholders, Ministers/MPs/MLAs/Mayors, govt employees (except MTS/Class-IV), income tax payers, professionals registered with bodies, pensioners drawing Rs 10,000+/month."
+    },
+    {
+      "section_path": "PM-KISAN > Required Documents",
+      "content": "Required: (1) Aadhaar (mandatory). (2) Land records (khatauni/7-12/patta). (3) Bank account with IFSC. (4) Mobile for OTP. Apply via state agriculture dept, CSC centres, or pmkisan.gov.in. eKYC mandatory."
+    },
+    {
+      "section_path": "PM-KISAN > Status Check",
+      "content": "Check at pmkisan.gov.in > Beneficiary Status. Enter Aadhaar/account/mobile. Shows installment history, next payment, rejection reasons. Common rejections: failed eKYC, land record mismatch, duplicate Aadhaar, ineligible category."
+    }
+  ]
+}

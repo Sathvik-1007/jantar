@@ -1,0 +1,27 @@
+{
+  "id": "doc-epfo-pf",
+  "title": "EPFO - Provident Fund & Pension",
+  "source_url": "https://www.epfindia.gov.in/",
+  "effective_date": "2024-01-01",
+  "jurisdiction": "central",
+  "domain": "employment",
+  "language": "en",
+  "sections": [
+    {
+      "section_path": "EPFO > Overview",
+      "content": "Employee Provident Fund: 12% of basic salary contributed by employee + 12% by employer. Of employer share, 8.33% goes to EPS (pension) and 3.67% to EPF. Mandatory for establishments with 20+ employees. Current interest rate: 8.25% (2023-24). UAN (Universal Account Number) is permanent ID across jobs."
+    },
+    {
+      "section_path": "EPFO > Online Services",
+      "content": "Via unifiedportal-mem.epfindia.gov.in: (1) Check PF balance (passbook). (2) Claim PF withdrawal (Form 19). (3) Claim pension (Form 10D). (4) Transfer PF between jobs (Form 13). (5) Update KYC (Aadhaar/bank/PAN linking). (6) Download UAN card. Also via UMANG app or missed call to 011-22901406."
+    },
+    {
+      "section_path": "EPFO > PF Withdrawal Rules",
+      "content": "Full withdrawal: after 2 months of unemployment (with self-declaration). Partial: (1) Medical - 6x monthly salary. (2) Marriage - 50% of member share. (3) Education - 50%. (4) Housing - 36x salary for purchase, 12x for repair. (5) 1 year before retirement - 90%. Online claim via UAN portal, money in 3-7 days if KYC complete."
+    },
+    {
+      "section_path": "EPFO > EPS Pension",
+      "content": "Eligible after 10 years of service. Monthly pension from age 58. Formula: (pensionable salary x pensionable service) / 70. Minimum pension: Rs 1,000/month. Early pension (age 50-58) at reduced rate. Family pension for dependents if member dies."
+    }
+  ]
+}

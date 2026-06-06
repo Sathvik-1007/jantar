@@ -1,0 +1,31 @@
+{
+  "id": "doc-ration-card-nfsa",
+  "title": "National Food Security Act (NFSA) - Ration Card",
+  "source_url": "https://nfsa.gov.in/",
+  "effective_date": "2024-01-01",
+  "jurisdiction": "central",
+  "domain": "food_security",
+  "language": "en",
+  "sections": [
+    {
+      "section_path": "Ration Card > Types",
+      "content": "Three types under NFSA: (1) Priority Household (PHH) - BPL families, 5 kg/person/month at Rs 1/kg millets, Rs 2/kg wheat, Rs 3/kg rice. (2) Antyodaya Anna Yojana (AAY) - poorest of poor, 35 kg/family/month. (3) Above Poverty Line (APL) - state-specific allocation."
+    },
+    {
+      "section_path": "Ration Card > Required Documents",
+      "content": "Required: (1) Aadhaar of all family members (mandatory). (2) Address proof - electricity/water bill, rent agreement, voter ID. (3) Income certificate from tehsildar/BDO (for BPL/AAY). (4) Family photograph. (5) Bank account (for DBT). (6) Surrender certificate if transferring states. (7) Form-N (available at FPS/tehsil/state portal)."
+    },
+    {
+      "section_path": "Ration Card > Application Process",
+      "content": "Steps: (1) Visit state food supplies portal (epds.nic.in or state-specific). (2) Fill Form-N online or collect from FPS/tehsil. (3) Submit documents at Food & Civil Supplies office or upload. (4) Field verification within 30 days. (5) Card issued within 45 days. (6) Linked to Aadhaar for eKYC at Fair Price Shops."
+    },
+    {
+      "section_path": "Ration Card > Eligibility",
+      "content": "PHH: family income below BPL threshold (Rs 1-1.5 lakh/year rural). AAY: destitute, widows, disabled, primitive tribes, landless labourers, urban homeless. Any Indian citizen can apply. Coverage: 75% rural, 50% urban. Migrant workers use ONORC for portability."
+    },
+    {
+      "section_path": "Ration Card > ONORC Portability",
+      "content": "One Nation One Ration Card enables buying subsidized rations from any Fair Price Shop in India. Uses Aadhaar biometric authentication. 80+ crore beneficiaries across 35 states/UTs. Migrant workers primary beneficiaries. No separate registration needed."
+    }
+  ]
+}

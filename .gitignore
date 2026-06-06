@@ -1,0 +1,26 @@
+# Environment
+.env
+.venv/
+__pycache__/
+*.pyc
+
+# Model cache
+.cache/
+
+# Logs
+logs/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Large catalog (raw JSON ignored — decompress .gz or use download script)
+data/catalog/*.json
+data/catalog/*.jsonl
+!data/catalog/*.json.gz
+
+# Build
+dist/
+*.egg-info/
+.pytest_cache/

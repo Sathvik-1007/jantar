@@ -1,0 +1,25 @@
+{
+  "name": "open_meteo_air_quality",
+  "description": "Real-time air quality (AQI, PM2.5, PM10, NO2, SO2, O3) for any Indian location. Free, no API key.",
+  "domain": "environment",
+  "auth_method": "open",
+  "base_url": "https://air-quality-api.open-meteo.com",
+  "endpoint": "/v1/air-quality",
+  "http_method": "GET",
+  "input_schema": {
+    "city": "string (Indian city name)"
+  },
+  "output_schema": {
+    "aqi": "integer (US EPA index)",
+    "pm2_5": "float (μg/m³)",
+    "pm10": "float (μg/m³)"
+  },
+  "examples": [
+    "Air quality in Delhi today",
+    "दिल्ली में प्रदूषण कितना है?",
+    "PM2.5 level in Mumbai"
+  ],
+  "contextual_description": "Air quality monitoring for Indian cities. Returns AQI (US EPA standard), PM2.5, PM10, NO2, SO2, and O3 concentrations. Useful for health advisories and pollution queries.",
+  "rate_limit": 1000,
+  "sensitivity": "low"
+}

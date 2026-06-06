@@ -1,0 +1,27 @@
+{
+  "id": "doc-income-tax",
+  "title": "Income Tax - e-Filing",
+  "source_url": "https://www.incometax.gov.in/",
+  "effective_date": "2024-01-01",
+  "jurisdiction": "central",
+  "domain": "tax",
+  "language": "en",
+  "sections": [
+    {
+      "section_path": "Income Tax > Tax Slabs 2024-25 (New Regime)",
+      "content": "New regime (default): 0-3L: nil, 3-7L: 5%, 7-10L: 10%, 10-12L: 15%, 12-15L: 20%, 15L+: 30%. Standard deduction: Rs 75,000. Rebate u/s 87A: no tax if income up to Rs 7 lakh. Old regime: 0-2.5L nil, 2.5-5L 5%, 5-10L 20%, 10L+ 30% (with deductions 80C/80D etc)."
+    },
+    {
+      "section_path": "Income Tax > e-Filing Process",
+      "content": "On incometax.gov.in: (1) Login with PAN. (2) Select ITR form (ITR-1 for salaried up to 50L, ITR-2 for capital gains/foreign income). (3) Pre-filled data from Form 26AS/AIS. (4) Verify TDS, add other income. (5) Claim deductions. (6) Submit. (7) e-Verify via Aadhaar OTP/net banking/DSC within 30 days. Deadline: 31 July."
+    },
+    {
+      "section_path": "Income Tax > Important Forms",
+      "content": "Form 26AS: annual tax statement (TDS/TCS/advance tax/refunds). AIS (Annual Information Statement): comprehensive financial transactions. TIS (Taxpayer Information Summary): derived from AIS. Form 16: TDS certificate from employer. Form 15G/15H: declaration for no TDS on interest (if below taxable limit)."
+    },
+    {
+      "section_path": "Income Tax > Common Deductions",
+      "content": "Under old regime: 80C (Rs 1.5L - PPF/ELSS/LIC/tuition/home loan principal), 80D (health insurance - Rs 25K self + Rs 25K parents, Rs 50K if senior), 80E (education loan interest - no limit), 80G (donations), 80TTA (Rs 10K savings interest), HRA exemption. New regime: only standard deduction Rs 75K + NPS 80CCD(2) employer contribution."
+    }
+  ]
+}

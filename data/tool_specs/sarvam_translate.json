@@ -1,0 +1,25 @@
+{
+  "name": "sarvam_translate",
+  "description": "Translate between 22 Indian languages and English using Sarvam AI. Hindi, Bengali, Tamil, Telugu, Marathi, Gujarati, Kannada, Malayalam, Odia, Punjabi, and more.",
+  "domain": "language",
+  "auth_method": "header",
+  "base_url": "https://api.sarvam.ai",
+  "endpoint": "/translate",
+  "http_method": "POST",
+  "input_schema": {
+    "text": "string",
+    "source_language": "string (ISO code or 'auto')",
+    "target_language": "string (ISO code)"
+  },
+  "output_schema": {
+    "translated_text": "string"
+  },
+  "examples": [
+    "Translate this to Hindi",
+    "इसे English में translate करो",
+    "Tamil to English translation"
+  ],
+  "contextual_description": "Sarvam AI multilingual translation supporting all 22 scheduled Indian languages plus English. Auto-detects source language. Handles code-mixing.",
+  "rate_limit": 100,
+  "sensitivity": "low"
+}

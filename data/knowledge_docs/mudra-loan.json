@@ -1,0 +1,27 @@
+{
+  "id": "doc-mudra-loan",
+  "title": "PMMY - Pradhan Mantri MUDRA Yojana",
+  "source_url": "https://www.mudra.org.in/",
+  "effective_date": "2024-01-01",
+  "jurisdiction": "central",
+  "domain": "finance",
+  "language": "en",
+  "sections": [
+    {
+      "section_path": "MUDRA > Overview",
+      "content": "Collateral-free loans up to Rs 10 lakh for micro/small enterprises. Three categories: Shishu (up to Rs 50,000), Kishore (Rs 50,001 to Rs 5 lakh), Tarun (Rs 5,00,001 to Rs 10 lakh). Available at all banks, NBFCs, MFIs. No collateral required. Over 40 crore loans disbursed since 2015."
+    },
+    {
+      "section_path": "MUDRA > Eligibility",
+      "content": "Any Indian citizen with a business plan for non-farm income generating activity. Covers: manufacturing, trading, services, agriculture-allied (food processing, poultry, fishery, bee-keeping). Not for: agriculture (crop loans), consumption. Special focus: SC/ST, women entrepreneurs, minorities."
+    },
+    {
+      "section_path": "MUDRA > How to Apply",
+      "content": "Apply at any bank branch, NBFC, or MFI. Documents: ID proof, address proof, business plan/proposal, caste certificate (if SC/ST), quotation of machinery (if buying). Also apply via udyamimitra.in portal or psbloansin59minutes.com. No processing fee for Shishu loans. Interest rate: 7-12% depending on category and lender."
+    },
+    {
+      "section_path": "MUDRA > MUDRA Card",
+      "content": "MUDRA card (like credit card) for working capital needs of Shishu/Kishore borrowers. Withdraw as needed, repay, re-withdraw. Reduces interest burden. Issued by lending bank along with loan sanction."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "doc-data-gov",
+  "title": "data.gov.in - Open Government Data Platform",
+  "source_url": "https://data.gov.in/",
+  "effective_date": "2024-01-01",
+  "jurisdiction": "central",
+  "domain": "data",
+  "language": "en",
+  "sections": [
+    {
+      "section_path": "data.gov.in > Overview",
+      "content": "India's Open Government Data platform. 1,00,000+ datasets from 170+ departments. Free API access. Datasets: commodity prices (mandi), weather, agriculture production, demographics, health, education, infrastructure, environment. APIs: REST, JSON/XML/CSV responses. Rate limit: 100 requests/hour per key."
+    },
+    {
+      "section_path": "data.gov.in > API Access",
+      "content": "Register at data.gov.in > API > Generate Key. Instant 32-character key. Endpoints: /resource/{resource_id}?api-key=KEY&format=json&limit=100&offset=0. Filters: field-specific (e.g., state=Maharashtra, commodity=Wheat). Bulk download available for full datasets."
+    },
+    {
+      "section_path": "data.gov.in > Popular Datasets",
+      "content": "Most used: (1) Daily commodity prices (mandi rates for 200+ commodities across 2000+ markets). (2) Real-time air quality (CPCB stations). (3) Pin code directory (all India). (4) Company registration data (MCA). (5) Hospital directory. (6) School list (UDISE). (7) Rainfall data. (8) Census 2011 tables. (9) Road accidents. (10) Crime statistics (NCRB)."
+    },
+    {
+      "section_path": "data.gov.in > Mandi Prices API",
+      "content": "Real-time agricultural commodity prices from mandis (APMC markets) across India. Fields: state, district, market, commodity, variety, arrival_date, min_price, max_price, modal_price. Updated daily. Covers: wheat, rice, onion, potato, tomato, pulses, oilseeds, spices, fruits, vegetables. Resource ID: 9ef84268-d588-465a-a308-a864a43d0070."
+    }
+  ]
+}

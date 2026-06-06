@@ -1,0 +1,27 @@
+{
+  "id": "doc-scholarship-nsp",
+  "title": "National Scholarship Portal (NSP)",
+  "source_url": "https://scholarships.gov.in/",
+  "effective_date": "2024-01-01",
+  "jurisdiction": "central",
+  "domain": "education",
+  "language": "en",
+  "sections": [
+    {
+      "section_path": "NSP > Overview",
+      "content": "Single-window for 100+ central and state scholarship schemes. Covers pre-matric, post-matric, merit-cum-means, top-class education for SC/ST/OBC/minorities/disabled. Over 3 crore applications processed annually. Amount: Rs 5,000 to Rs 2,00,000/year depending on scheme."
+    },
+    {
+      "section_path": "NSP > Major Schemes",
+      "content": "Key schemes: (1) Post-Matric Scholarship for SC (tuition + maintenance). (2) Pre-Matric Scholarship for Minorities (Class 1-10, Rs 5,400-10,700/year). (3) Central Sector Scheme for top 20% of 12th pass (Rs 12,000-20,000/year for 3 years). (4) PM Scholarship for wards of ex-servicemen. (5) National Means-cum-Merit (NMMS) for Class 9-12 (Rs 12,000/year). (6) Inspire scholarship for science (Rs 80,000/year)."
+    },
+    {
+      "section_path": "NSP > Application Process",
+      "content": "Steps: (1) Register on scholarships.gov.in (Aadhaar + mobile + bank). (2) Select scheme. (3) Fill application with academic + income details. (4) Upload: income cert, caste cert, marksheets, bank passbook, Aadhaar, institution verification letter. (5) Institute verifies. (6) District/state verifies. (7) Amount credited to bank via DBT. Timeline: Apply July-Nov (fresh), renewal by March."
+    },
+    {
+      "section_path": "NSP > Common Rejections & Tips",
+      "content": "Rejections: bank account not matching Aadhaar-seeded name, income certificate expired/wrong format, institute not verified on NSP, missed deadline, PFMS validation failure. Tips: ensure bank is PFMS-active, use income cert from current year, get institute to verify early, apply in first week of portal opening."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "doc-digilocker",
+  "title": "DigiLocker - Digital Document Wallet",
+  "source_url": "https://www.digilocker.gov.in/",
+  "effective_date": "2024-01-01",
+  "jurisdiction": "central",
+  "domain": "identity",
+  "language": "en",
+  "sections": [
+    {
+      "section_path": "DigiLocker > Overview",
+      "content": "Government digital document wallet linked to Aadhaar. Stores and shares verified documents. 250+ crore documents issued. 30+ crore registered users. Documents from DigiLocker are legally equivalent to originals (IT Act 2000). Free for citizens."
+    },
+    {
+      "section_path": "DigiLocker > Available Documents",
+      "content": "Documents available: Aadhaar, PAN card, Driving Licence, Vehicle RC, Class 10/12 marksheets (CBSE/state boards), Degree certificates, Insurance policies, Property documents (some states), Ration card, Voter ID, Birth/Death certificate, Caste/Income certificates. Issued by 2,400+ organizations."
+    },
+    {
+      "section_path": "DigiLocker > How to Use",
+      "content": "Register with Aadhaar + mobile OTP. Access via digilocker.gov.in or DigiLocker app. Pull documents: select issuer org > authenticate > document fetched and stored permanently. Share: generate sharable link or QR. Accepted at airports (instead of physical ID), traffic police checks, university admissions, job applications."
+    },
+    {
+      "section_path": "DigiLocker > API for Developers",
+      "content": "DigiLocker API available for requester orgs via API Setu. Allows pulling verified documents with user consent (OAuth2 flow). Free for government departments. Endpoints: /pull (fetch doc), /verify (verify authenticity), /share (get shareable URI). SDK available for Java, Python, Node.js."
+    }
+  ]
+}

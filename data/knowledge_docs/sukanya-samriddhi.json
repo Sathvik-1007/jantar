@@ -1,0 +1,23 @@
+{
+  "id": "doc-sukanya-samriddhi",
+  "title": "Sukanya Samriddhi Yojana (SSY)",
+  "source_url": "https://www.india.gov.in/sukanya-samriddhi-yojana",
+  "effective_date": "2024-01-01",
+  "jurisdiction": "central",
+  "domain": "finance",
+  "language": "en",
+  "sections": [
+    {
+      "section_path": "SSY > Overview",
+      "content": "Savings scheme for girl child. Interest: 8.2% (Q1 2024-25, highest among small savings). Tax-free under EEE (exempt-exempt-exempt: 80C deduction on deposit, tax-free interest, tax-free maturity). Open in girl's name by guardian. Max 2 accounts (2 daughters). Min deposit: Rs 250/year. Max: Rs 1.5 lakh/year."
+    },
+    {
+      "section_path": "SSY > Rules",
+      "content": "Open from birth to age 10. Deposits for 15 years. Maturity at 21 years from opening. Partial withdrawal: 50% of balance at age 18 for higher education. Premature closure: only for marriage (after age 18) or medical emergency. Account can be transferred between post offices/banks nationwide."
+    },
+    {
+      "section_path": "SSY > How to Open",
+      "content": "Open at any post office or authorized bank (SBI, PNB, BOB, etc). Documents: girl's birth certificate, guardian's ID + address proof, initial deposit (min Rs 250). Account number issued same day. Deposits via cash/cheque/online transfer. Track via passbook or post office/bank app."
+    }
+  ]
+}

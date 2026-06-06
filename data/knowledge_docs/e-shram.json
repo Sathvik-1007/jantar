@@ -1,0 +1,27 @@
+{
+  "id": "doc-e-shram",
+  "title": "e-Shram - Unorganised Workers Register",
+  "source_url": "https://eshram.gov.in/",
+  "effective_date": "2024-01-01",
+  "jurisdiction": "central",
+  "domain": "employment",
+  "language": "en",
+  "sections": [
+    {
+      "section_path": "e-Shram > Overview",
+      "content": "National database for unorganised sector workers (construction, gig, domestic, street vendors, agricultural labourers, etc.). UAN (Universal Account Number) issued. 30+ crore registrations. Benefits: Rs 2 lakh accidental insurance (PMSBY), future social security schemes linked to e-Shram ID. Free registration."
+    },
+    {
+      "section_path": "e-Shram > Who Can Register",
+      "content": "Any worker aged 16-59 in unorganised sector: construction, domestic, street vendor, home-based, self-employed, gig/platform worker, agricultural labourer, fisherman, beedi worker, MGNREGA worker, auto/rickshaw/taxi driver, mid-day meal worker, anganwadi helper. Must NOT be: EPFO/ESIC member or income tax payer."
+    },
+    {
+      "section_path": "e-Shram > How to Register",
+      "content": "Online at eshram.gov.in (Aadhaar + mobile OTP) or at CSC centre. Need: Aadhaar, mobile linked to Aadhaar, bank account (IFSC), occupation details. e-Shram card issued instantly (digital, download PDF). No documents to upload. Free. Card has UAN number for all future scheme linkages."
+    },
+    {
+      "section_path": "e-Shram > Benefits",
+      "content": "Current: Rs 2 lakh accidental death insurance (PMSBY - premium paid by govt). Future (being linked): PM-SVANidhi (street vendor loans), BOCW (construction worker welfare), PM-JAY health coverage linkage, pension schemes, skill training priority. e-Shram card increasingly accepted as worker ID proof for scheme applications."
+    }
+  ]
+}

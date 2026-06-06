@@ -1,0 +1,27 @@
+{
+  "id": "doc-aadhaar",
+  "title": "Aadhaar - UIDAI",
+  "source_url": "https://uidai.gov.in/",
+  "effective_date": "2024-01-01",
+  "jurisdiction": "central",
+  "domain": "identity",
+  "language": "en",
+  "sections": [
+    {
+      "section_path": "Aadhaar > Overview",
+      "content": "12-digit unique identity number issued by UIDAI based on biometric + demographic data. 140+ crore Aadhaar numbers issued. Used for: KYC, DBT, authentication, eKYC. Free enrollment. Linked to most government schemes for benefit delivery."
+    },
+    {
+      "section_path": "Aadhaar > Services",
+      "content": "Online services at uidai.gov.in: (1) Download e-Aadhaar (PDF with password = first 4 letters of name + birth year). (2) Update address/mobile/email online. (3) Update biometrics (mandatory every 10 years, free). (4) Check update history. (5) Verify Aadhaar number. (6) Lock/unlock biometrics. (7) Generate VID (Virtual ID for privacy)."
+    },
+    {
+      "section_path": "Aadhaar > Enrollment & Update",
+      "content": "Enrollment: free at any Aadhaar centre. Need: any one POI (proof of identity) + one POA (proof of address) from approved list. Biometrics: 10 fingerprints + iris + face. For children under 5: no biometrics, only demographic + photo (mandatory biometric update at 5 and 15). Update: visit centre or online (address/mobile/email only)."
+    },
+    {
+      "section_path": "Aadhaar > Authentication Types",
+      "content": "Types: (1) Demographic auth (name + DOB/gender). (2) OTP auth (OTP to registered mobile). (3) Biometric auth (fingerprint/iris). (4) Face auth. (5) Multi-factor (combo). Used by: banks (eKYC), telecom (SIM activation), government (DBT delivery), attendance (AEBAS). Rate limit: free for government, Rs 0.50-20/transaction for private entities via licensed AUA/KUA."
+    }
+  ]
+}

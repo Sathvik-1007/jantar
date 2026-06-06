@@ -1,0 +1,27 @@
+{
+  "id": "doc-crop-insurance",
+  "title": "PM Fasal Bima Yojana (PMFBY) - Crop Insurance",
+  "source_url": "https://pmfby.gov.in/",
+  "effective_date": "2024-01-01",
+  "jurisdiction": "central",
+  "domain": "agriculture",
+  "language": "en",
+  "sections": [
+    {
+      "section_path": "PMFBY > Overview",
+      "content": "Crop insurance at low premium: Kharif 2%, Rabi 1.5%, Commercial/horticulture 5% of sum insured. Government pays remaining premium. Covers: natural calamities, pests, diseases, post-harvest losses (14 days), localized calamities (hailstorm, landslide, flood), prevented sowing. Covers all crops including paddy, wheat, cotton, pulses, oilseeds."
+    },
+    {
+      "section_path": "PMFBY > How to Enroll",
+      "content": "Loanee farmers: auto-enrolled via bank (can opt out). Non-loanee: apply through bank/CSC/insurance company portal/pmfby.gov.in or Crop Insurance App. Need: Aadhaar, bank account, land records (khatauni/lease), sowing certificate from patwari/agriculture officer. Deadline: before sowing season cutoff date."
+    },
+    {
+      "section_path": "PMFBY > Claim Process",
+      "content": "Report crop loss within 72 hours via Crop Insurance App/portal/bank/insurance company/toll-free 14447. Government conducts Crop Cutting Experiments (CCE) at mandal/block level. If yield below threshold (based on 7-year average), claim auto-triggered for entire area. Individual claim: field inspection by insurance company. Payment via DBT within 2 months of CCE data."
+    },
+    {
+      "section_path": "PMFBY > Check Status",
+      "content": "Check at pmfby.gov.in > Application Status or Crop Insurance App. Enter: application number or Aadhaar or mobile. Shows: policy details, premium paid, claim status, payout amount. Season-wise and crop-wise details available."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "india_post_pincode",
+  "description": "Post office details by PIN code or branch name search. Branch, delivery status, district, state. Government postal service. Free, no API key.",
+  "domain": "postal",
+  "auth_method": "open",
+  "base_url": "https://api.postalpincode.in",
+  "endpoint": "/pincode/{pincode}",
+  "http_method": "GET",
+  "input_schema": {
+    "pincode": "string (6-digit Indian PIN code)"
+  },
+  "output_schema": {
+    "post_offices": "array of {name, branch_type, delivery_status, district, state}"
+  },
+  "examples": [
+    "Which post office serves PIN 110001?",
+    "पिन कोड 400001 का डाकघर?",
+    "Post offices in 560001"
+  ],
+  "contextual_description": "India Post postal PIN code lookup. Returns all post offices in a PIN code area with branch type, delivery status, district, and state. Covers all 19,000+ PIN codes.",
+  "rate_limit": 1000,
+  "sensitivity": "low"
+}

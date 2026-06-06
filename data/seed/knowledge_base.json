@@ -1,0 +1,317 @@
+{
+  "documents": [
+    {
+      "id": "doc-ration-card-nfsa",
+      "title": "National Food Security Act (NFSA) - Ration Card",
+      "source_url": "https://nfsa.gov.in/",
+      "effective_date": "2024-01-01",
+      "jurisdiction": "central",
+      "domain": "food_security",
+      "language": "en",
+      "sections": [
+        {"section_path": "Ration Card > Types", "content": "Three types under NFSA: (1) Priority Household (PHH) - BPL families, 5 kg/person/month at Rs 1/kg millets, Rs 2/kg wheat, Rs 3/kg rice. (2) Antyodaya Anna Yojana (AAY) - poorest of poor, 35 kg/family/month. (3) Above Poverty Line (APL) - state-specific allocation."},
+        {"section_path": "Ration Card > Required Documents", "content": "Required: (1) Aadhaar of all family members (mandatory). (2) Address proof - electricity/water bill, rent agreement, voter ID. (3) Income certificate from tehsildar/BDO (for BPL/AAY). (4) Family photograph. (5) Bank account (for DBT). (6) Surrender certificate if transferring states. (7) Form-N (available at FPS/tehsil/state portal)."},
+        {"section_path": "Ration Card > Application Process", "content": "Steps: (1) Visit state food supplies portal (epds.nic.in or state-specific). (2) Fill Form-N online or collect from FPS/tehsil. (3) Submit documents at Food & Civil Supplies office or upload. (4) Field verification within 30 days. (5) Card issued within 45 days. (6) Linked to Aadhaar for eKYC at Fair Price Shops."},
+        {"section_path": "Ration Card > Eligibility", "content": "PHH: family income below BPL threshold (Rs 1-1.5 lakh/year rural). AAY: destitute, widows, disabled, primitive tribes, landless labourers, urban homeless. Any Indian citizen can apply. Coverage: 75% rural, 50% urban. Migrant workers use ONORC for portability."},
+        {"section_path": "Ration Card > ONORC Portability", "content": "One Nation One Ration Card enables buying subsidized rations from any Fair Price Shop in India. Uses Aadhaar biometric authentication. 80+ crore beneficiaries across 35 states/UTs. Migrant workers primary beneficiaries. No separate registration needed."}
+      ]
+    },
+    {
+      "id": "doc-pm-kisan",
+      "title": "PM-KISAN Samman Nidhi Yojana",
+      "source_url": "https://pmkisan.gov.in/",
+      "effective_date": "2024-01-01",
+      "jurisdiction": "central",
+      "domain": "agriculture",
+      "language": "en",
+      "sections": [
+        {"section_path": "PM-KISAN > Overview", "content": "Income support of Rs 6,000/year to all landholding farmer families. Paid in 3 installments of Rs 2,000 via DBT. Launched 24 Feb 2019. Over 11 crore beneficiaries."},
+        {"section_path": "PM-KISAN > Eligibility", "content": "Eligible: All landholding farmer families with cultivable land. Exclusions: institutional landholders, Ministers/MPs/MLAs/Mayors, govt employees (except MTS/Class-IV), income tax payers, professionals registered with bodies, pensioners drawing Rs 10,000+/month."},
+        {"section_path": "PM-KISAN > Required Documents", "content": "Required: (1) Aadhaar (mandatory). (2) Land records (khatauni/7-12/patta). (3) Bank account with IFSC. (4) Mobile for OTP. Apply via state agriculture dept, CSC centres, or pmkisan.gov.in. eKYC mandatory."},
+        {"section_path": "PM-KISAN > Status Check", "content": "Check at pmkisan.gov.in > Beneficiary Status. Enter Aadhaar/account/mobile. Shows installment history, next payment, rejection reasons. Common rejections: failed eKYC, land record mismatch, duplicate Aadhaar, ineligible category."}
+      ]
+    },
+    {
+      "id": "doc-ayushman-bharat",
+      "title": "Ayushman Bharat PM-JAY",
+      "source_url": "https://pmjay.gov.in/",
+      "effective_date": "2024-01-01",
+      "jurisdiction": "central",
+      "domain": "health",
+      "language": "en",
+      "sections": [
+        {"section_path": "PM-JAY > Overview", "content": "Health insurance Rs 5 lakh/family/year for hospitalization. 55 crore beneficiaries (12 crore families). Cashless at 30,000+ empanelled hospitals. No cap on family size/age/gender. Pre-existing conditions covered from day one."},
+        {"section_path": "PM-JAY > Eligibility", "content": "Based on SECC 2011. Rural: kucha house, no adult 16-59, female-headed, disabled, SC/ST, landless, manual labour. Urban: rag picker, beggar, domestic worker, street vendor, construction worker, plumber, sweeper, security guard, rickshaw puller."},
+        {"section_path": "PM-JAY > How to Check & Get Card", "content": "Check: (1) pmjay.gov.in > Am I Eligible. (2) Call 14555. (3) Visit Ayushman Mitra at hospital. (4) CSC centre. If eligible, get free Ayushman card with photo and QR."},
+        {"section_path": "PM-JAY > Treatment Process", "content": "Steps: (1) Visit empanelled hospital. (2) Show card or Aadhaar biometric verification. (3) Hospital generates pre-auth. (4) Cashless treatment. (5) Hospital claims from insurer. 1,949 packages: cardiology, oncology, orthopedics, neurosurgery, burns, dialysis, cataract, mental health. 3-day pre and 15-day post hospitalization covered."}
+      ]
+    },
+    {
+      "id": "doc-driving-licence",
+      "title": "Driving Licence - Parivahan/Sarathi",
+      "source_url": "https://sarathi.parivahan.gov.in/",
+      "effective_date": "2024-01-01",
+      "jurisdiction": "central",
+      "domain": "transport",
+      "language": "en",
+      "sections": [
+        {"section_path": "Driving Licence > Types", "content": "Types: (1) Learner Licence (LL) - valid 6 months. (2) Permanent DL - valid 20 years or till age 50. (3) International Driving Permit - valid 1 year. Categories: MC 50cc, MC Ex50cc, LMV, LMV-TR, HMV, HGMV, HPMV."},
+        {"section_path": "Driving Licence > Required Documents", "content": "For LL: age proof (Aadhaar/birth cert/10th marksheet), address proof, medical cert Form 1A (HMV), photos, fee Rs 200. For DL: LL (min 30 days old), same proofs, training certificate (optional), fee Rs 200-300."},
+        {"section_path": "Driving Licence > Online Process", "content": "On sarathi.parivahan.gov.in: (1) Register with mobile+Aadhaar. (2) Fill form. (3) Upload docs. (4) Pay online. (5) Book LL test slot (online MCQ). (6) Pass LL test. (7) After 30 days book DL test. (8) Pass driving test at RTO. (9) DL dispatched via post/DigiLocker."},
+        {"section_path": "Driving Licence > Renewal", "content": "Apply 1 year before to 1 year after expiry. Online via sarathi.parivahan.gov.in. Need: old DL, medical cert (mandatory after 40), address proof if changed, Rs 200. No driving test for renewal. Smart card dispatched 7-15 days."}
+      ]
+    },
+    {
+      "id": "doc-passport",
+      "title": "Indian Passport - Passport Seva",
+      "source_url": "https://www.passportindia.gov.in/",
+      "effective_date": "2024-01-01",
+      "jurisdiction": "central",
+      "domain": "identity",
+      "language": "en",
+      "sections": [
+        {"section_path": "Passport > Types & Fees", "content": "Types: Ordinary (navy blue, 10yr adults/5yr minors), Official (white), Diplomatic (maroon). Fee: Rs 1,500 (36 pages), Rs 2,000 (60 pages). Tatkal: +Rs 2,000."},
+        {"section_path": "Passport > Required Documents", "content": "Need: (1) Address proof - Aadhaar/utility bill/bank statement/voter ID/rent agreement. (2) DOB proof - birth certificate (born after 1989)/SLC/Aadhaar. (3) Old passport (reissue). Annexes: E (orphans), F (no birth cert), H (name change after marriage), I (appearance change)."},
+        {"section_path": "Passport > Application Process", "content": "Steps: (1) Register passportindia.gov.in. (2) Fill application. (3) Pay online. (4) Book PSK/POPSK appointment. (5) Visit with originals. (6) Doc verification + biometrics. (7) Police verification 1-3 weeks. (8) Dispatched via Speed Post. Time: 7-21 days normal, 1-3 days tatkal."},
+        {"section_path": "Passport > Status Tracking", "content": "Track at passportindia.gov.in or mPassport Seva app. Enter file number. Stages: Applied > Verified > PV Initiated > PV Completed > Granted > Printed > Dispatched. SMS alerts at each stage."}
+      ]
+    },
+    {
+      "id": "doc-epfo-pf",
+      "title": "EPFO - Provident Fund & Pension",
+      "source_url": "https://www.epfindia.gov.in/",
+      "effective_date": "2024-01-01",
+      "jurisdiction": "central",
+      "domain": "employment",
+      "language": "en",
+      "sections": [
+        {"section_path": "EPFO > Overview", "content": "Employee Provident Fund: 12% of basic salary contributed by employee + 12% by employer. Of employer share, 8.33% goes to EPS (pension) and 3.67% to EPF. Mandatory for establishments with 20+ employees. Current interest rate: 8.25% (2023-24). UAN (Universal Account Number) is permanent ID across jobs."},
+        {"section_path": "EPFO > Online Services", "content": "Via unifiedportal-mem.epfindia.gov.in: (1) Check PF balance (passbook). (2) Claim PF withdrawal (Form 19). (3) Claim pension (Form 10D). (4) Transfer PF between jobs (Form 13). (5) Update KYC (Aadhaar/bank/PAN linking). (6) Download UAN card. Also via UMANG app or missed call to 011-22901406."},
+        {"section_path": "EPFO > PF Withdrawal Rules", "content": "Full withdrawal: after 2 months of unemployment (with self-declaration). Partial: (1) Medical - 6x monthly salary. (2) Marriage - 50% of member share. (3) Education - 50%. (4) Housing - 36x salary for purchase, 12x for repair. (5) 1 year before retirement - 90%. Online claim via UAN portal, money in 3-7 days if KYC complete."},
+        {"section_path": "EPFO > EPS Pension", "content": "Eligible after 10 years of service. Monthly pension from age 58. Formula: (pensionable salary x pensionable service) / 70. Minimum pension: Rs 1,000/month. Early pension (age 50-58) at reduced rate. Family pension for dependents if member dies."}
+      ]
+    },
+    {
+      "id": "doc-digilocker",
+      "title": "DigiLocker - Digital Document Wallet",
+      "source_url": "https://www.digilocker.gov.in/",
+      "effective_date": "2024-01-01",
+      "jurisdiction": "central",
+      "domain": "identity",
+      "language": "en",
+      "sections": [
+        {"section_path": "DigiLocker > Overview", "content": "Government digital document wallet linked to Aadhaar. Stores and shares verified documents. 250+ crore documents issued. 30+ crore registered users. Documents from DigiLocker are legally equivalent to originals (IT Act 2000). Free for citizens."},
+        {"section_path": "DigiLocker > Available Documents", "content": "Documents available: Aadhaar, PAN card, Driving Licence, Vehicle RC, Class 10/12 marksheets (CBSE/state boards), Degree certificates, Insurance policies, Property documents (some states), Ration card, Voter ID, Birth/Death certificate, Caste/Income certificates. Issued by 2,400+ organizations."},
+        {"section_path": "DigiLocker > How to Use", "content": "Register with Aadhaar + mobile OTP. Access via digilocker.gov.in or DigiLocker app. Pull documents: select issuer org > authenticate > document fetched and stored permanently. Share: generate sharable link or QR. Accepted at airports (instead of physical ID), traffic police checks, university admissions, job applications."},
+        {"section_path": "DigiLocker > API for Developers", "content": "DigiLocker API available for requester orgs via API Setu. Allows pulling verified documents with user consent (OAuth2 flow). Free for government departments. Endpoints: /pull (fetch doc), /verify (verify authenticity), /share (get shareable URI). SDK available for Java, Python, Node.js."}
+      ]
+    },
+    {
+      "id": "doc-income-tax",
+      "title": "Income Tax - e-Filing",
+      "source_url": "https://www.incometax.gov.in/",
+      "effective_date": "2024-01-01",
+      "jurisdiction": "central",
+      "domain": "tax",
+      "language": "en",
+      "sections": [
+        {"section_path": "Income Tax > Tax Slabs 2024-25 (New Regime)", "content": "New regime (default): 0-3L: nil, 3-7L: 5%, 7-10L: 10%, 10-12L: 15%, 12-15L: 20%, 15L+: 30%. Standard deduction: Rs 75,000. Rebate u/s 87A: no tax if income up to Rs 7 lakh. Old regime: 0-2.5L nil, 2.5-5L 5%, 5-10L 20%, 10L+ 30% (with deductions 80C/80D etc)."},
+        {"section_path": "Income Tax > e-Filing Process", "content": "On incometax.gov.in: (1) Login with PAN. (2) Select ITR form (ITR-1 for salaried up to 50L, ITR-2 for capital gains/foreign income). (3) Pre-filled data from Form 26AS/AIS. (4) Verify TDS, add other income. (5) Claim deductions. (6) Submit. (7) e-Verify via Aadhaar OTP/net banking/DSC within 30 days. Deadline: 31 July."},
+        {"section_path": "Income Tax > Important Forms", "content": "Form 26AS: annual tax statement (TDS/TCS/advance tax/refunds). AIS (Annual Information Statement): comprehensive financial transactions. TIS (Taxpayer Information Summary): derived from AIS. Form 16: TDS certificate from employer. Form 15G/15H: declaration for no TDS on interest (if below taxable limit)."},
+        {"section_path": "Income Tax > Common Deductions", "content": "Under old regime: 80C (Rs 1.5L - PPF/ELSS/LIC/tuition/home loan principal), 80D (health insurance - Rs 25K self + Rs 25K parents, Rs 50K if senior), 80E (education loan interest - no limit), 80G (donations), 80TTA (Rs 10K savings interest), HRA exemption. New regime: only standard deduction Rs 75K + NPS 80CCD(2) employer contribution."}
+      ]
+    },
+    {
+      "id": "doc-voter-id",
+      "title": "Voter ID (EPIC) - Election Commission",
+      "source_url": "https://voters.eci.gov.in/",
+      "effective_date": "2024-01-01",
+      "jurisdiction": "central",
+      "domain": "identity",
+      "language": "en",
+      "sections": [
+        {"section_path": "Voter ID > Overview", "content": "Electoral Photo Identity Card (EPIC) issued by Election Commission of India. Required for voting. Also accepted as ID/address proof. Linked to specific polling booth and constituency. Available as physical card and e-EPIC (digital, downloadable)."},
+        {"section_path": "Voter ID > Registration (Form 6)", "content": "Apply online at voters.eci.gov.in or NVSP app. Fill Form 6 (new registration). Need: age proof (18+ on qualifying date 1 Jan/1 Apr/1 Jul/1 Oct), address proof, passport photo. BLO (Booth Level Officer) may visit for verification. EPIC issued within 15-30 days."},
+        {"section_path": "Voter ID > Corrections & Transfer", "content": "Form 8: correction in entries (name/photo/address/DOB). Form 6A: overseas voter registration. Form 7: objection to inclusion. Transfer: if moved to new constituency, apply fresh Form 6 in new area + Form 7 to delete from old. All online via voters.eci.gov.in."},
+        {"section_path": "Voter ID > e-EPIC", "content": "Download digital voter ID from voters.eci.gov.in after face-matching verification. Valid for identification. Contains QR code with encrypted details. Available on DigiLocker also. No need to carry physical card if e-EPIC on phone."}
+      ]
+    },
+    {
+      "id": "doc-mudra-loan",
+      "title": "PMMY - Pradhan Mantri MUDRA Yojana",
+      "source_url": "https://www.mudra.org.in/",
+      "effective_date": "2024-01-01",
+      "jurisdiction": "central",
+      "domain": "finance",
+      "language": "en",
+      "sections": [
+        {"section_path": "MUDRA > Overview", "content": "Collateral-free loans up to Rs 10 lakh for micro/small enterprises. Three categories: Shishu (up to Rs 50,000), Kishore (Rs 50,001 to Rs 5 lakh), Tarun (Rs 5,00,001 to Rs 10 lakh). Available at all banks, NBFCs, MFIs. No collateral required. Over 40 crore loans disbursed since 2015."},
+        {"section_path": "MUDRA > Eligibility", "content": "Any Indian citizen with a business plan for non-farm income generating activity. Covers: manufacturing, trading, services, agriculture-allied (food processing, poultry, fishery, bee-keeping). Not for: agriculture (crop loans), consumption. Special focus: SC/ST, women entrepreneurs, minorities."},
+        {"section_path": "MUDRA > How to Apply", "content": "Apply at any bank branch, NBFC, or MFI. Documents: ID proof, address proof, business plan/proposal, caste certificate (if SC/ST), quotation of machinery (if buying). Also apply via udyamimitra.in portal or psbloansin59minutes.com. No processing fee for Shishu loans. Interest rate: 7-12% depending on category and lender."},
+        {"section_path": "MUDRA > MUDRA Card", "content": "MUDRA card (like credit card) for working capital needs of Shishu/Kishore borrowers. Withdraw as needed, repay, re-withdraw. Reduces interest burden. Issued by lending bank along with loan sanction."}
+      ]
+    },
+    {
+      "id": "doc-scholarship-nsp",
+      "title": "National Scholarship Portal (NSP)",
+      "source_url": "https://scholarships.gov.in/",
+      "effective_date": "2024-01-01",
+      "jurisdiction": "central",
+      "domain": "education",
+      "language": "en",
+      "sections": [
+        {"section_path": "NSP > Overview", "content": "Single-window for 100+ central and state scholarship schemes. Covers pre-matric, post-matric, merit-cum-means, top-class education for SC/ST/OBC/minorities/disabled. Over 3 crore applications processed annually. Amount: Rs 5,000 to Rs 2,00,000/year depending on scheme."},
+        {"section_path": "NSP > Major Schemes", "content": "Key schemes: (1) Post-Matric Scholarship for SC (tuition + maintenance). (2) Pre-Matric Scholarship for Minorities (Class 1-10, Rs 5,400-10,700/year). (3) Central Sector Scheme for top 20% of 12th pass (Rs 12,000-20,000/year for 3 years). (4) PM Scholarship for wards of ex-servicemen. (5) National Means-cum-Merit (NMMS) for Class 9-12 (Rs 12,000/year). (6) Inspire scholarship for science (Rs 80,000/year)."},
+        {"section_path": "NSP > Application Process", "content": "Steps: (1) Register on scholarships.gov.in (Aadhaar + mobile + bank). (2) Select scheme. (3) Fill application with academic + income details. (4) Upload: income cert, caste cert, marksheets, bank passbook, Aadhaar, institution verification letter. (5) Institute verifies. (6) District/state verifies. (7) Amount credited to bank via DBT. Timeline: Apply July-Nov (fresh), renewal by March."},
+        {"section_path": "NSP > Common Rejections & Tips", "content": "Rejections: bank account not matching Aadhaar-seeded name, income certificate expired/wrong format, institute not verified on NSP, missed deadline, PFMS validation failure. Tips: ensure bank is PFMS-active, use income cert from current year, get institute to verify early, apply in first week of portal opening."}
+      ]
+    },
+    {
+      "id": "doc-aadhaar",
+      "title": "Aadhaar - UIDAI",
+      "source_url": "https://uidai.gov.in/",
+      "effective_date": "2024-01-01",
+      "jurisdiction": "central",
+      "domain": "identity",
+      "language": "en",
+      "sections": [
+        {"section_path": "Aadhaar > Overview", "content": "12-digit unique identity number issued by UIDAI based on biometric + demographic data. 140+ crore Aadhaar numbers issued. Used for: KYC, DBT, authentication, eKYC. Free enrollment. Linked to most government schemes for benefit delivery."},
+        {"section_path": "Aadhaar > Services", "content": "Online services at uidai.gov.in: (1) Download e-Aadhaar (PDF with password = first 4 letters of name + birth year). (2) Update address/mobile/email online. (3) Update biometrics (mandatory every 10 years, free). (4) Check update history. (5) Verify Aadhaar number. (6) Lock/unlock biometrics. (7) Generate VID (Virtual ID for privacy)."},
+        {"section_path": "Aadhaar > Enrollment & Update", "content": "Enrollment: free at any Aadhaar centre. Need: any one POI (proof of identity) + one POA (proof of address) from approved list. Biometrics: 10 fingerprints + iris + face. For children under 5: no biometrics, only demographic + photo (mandatory biometric update at 5 and 15). Update: visit centre or online (address/mobile/email only)."},
+        {"section_path": "Aadhaar > Authentication Types", "content": "Types: (1) Demographic auth (name + DOB/gender). (2) OTP auth (OTP to registered mobile). (3) Biometric auth (fingerprint/iris). (4) Face auth. (5) Multi-factor (combo). Used by: banks (eKYC), telecom (SIM activation), government (DBT delivery), attendance (AEBAS). Rate limit: free for government, Rs 0.50-20/transaction for private entities via licensed AUA/KUA."}
+      ]
+    },
+    {
+      "id": "doc-upi",
+      "title": "UPI - Unified Payments Interface",
+      "source_url": "https://www.npci.org.in/what-we-do/upi/product-overview",
+      "effective_date": "2024-01-01",
+      "jurisdiction": "central",
+      "domain": "finance",
+      "language": "en",
+      "sections": [
+        {"section_path": "UPI > Overview", "content": "Real-time payment system by NPCI. 14+ billion transactions/month (2024). Free for person-to-person. Works via VPA (virtual payment address like name@upi). Supports: P2P, P2M, recurring mandates, IPO, FASTag recharge, insurance, international (Singapore, UAE, France, Sri Lanka)."},
+        {"section_path": "UPI > UPI Lite & UPI 123PAY", "content": "UPI Lite: small-value offline payments (up to Rs 500/txn, Rs 2000 wallet). No PIN needed. Works without internet connectivity once loaded. UPI 123PAY: for feature phones without internet. Dial *99# for USSD-based payments. IVR-based payment for non-smartphone users."},
+        {"section_path": "UPI > For Merchants", "content": "Zero MDR for transactions up to Rs 2,000. Dynamic QR via any PSP app. UPI Autopay for recurring (subscriptions, EMIs, SIPs - up to Rs 1 lakh). Settlement: T+0 or T+1. UPI for IPO applications. Integration: PSP APIs, BharatPe aggregation, PhonePe/Paytm business accounts."},
+        {"section_path": "UPI > Transaction Limits", "content": "Standard: Rs 1 lakh/transaction. Enhanced: Rs 2 lakh (capital markets, insurance, education, hospitals). Rs 5 lakh (tax payments, IPO). Credit card on UPI: available via RuPay credit cards linked to UPI. Daily limit: bank-dependent (typically Rs 1-2 lakh). Failed transactions auto-refund in 48 hours."}
+      ]
+    },
+    {
+      "id": "doc-pmay",
+      "title": "PM Awas Yojana (PMAY) - Housing for All",
+      "source_url": "https://pmaymis.gov.in/",
+      "effective_date": "2024-01-01",
+      "jurisdiction": "central",
+      "domain": "housing",
+      "language": "en",
+      "sections": [
+        {"section_path": "PMAY > Overview", "content": "Affordable housing scheme. PMAY-Urban: interest subsidy on home loans for EWS/LIG/MIG. PMAY-Gramin: Rs 1.20 lakh (plain) to Rs 1.30 lakh (hilly) grant for house construction in rural areas. Target: Housing for All."},
+        {"section_path": "PMAY Urban > Eligibility & Benefits", "content": "EWS (income up to Rs 3L): subsidy 6.5% on Rs 6L loan for 20 years (saving ~Rs 2.67 lakh). LIG (Rs 3-6L): same. MIG-I (Rs 6-12L): 4% on Rs 9L for 20 years. MIG-II (Rs 12-18L): 3% on Rs 12L for 20 years. Condition: no pucca house in any family member's name anywhere in India."},
+        {"section_path": "PMAY Gramin > How to Apply", "content": "Selection via Socio Economic Caste Census (SECC) data. No direct application - beneficiaries identified by gram sabha from SECC priority list. Check eligibility: pmayg.nic.in > Stakeholders > IAY/PMAYG Beneficiary. If on list, contact gram panchayat/BDO. Money released in 3 installments linked to construction stages (verified by geo-tagged photos)."},
+        {"section_path": "PMAY > Required Documents", "content": "Urban: Aadhaar, income proof, property documents, no-home declaration (self + spouse + dependent children), bank loan sanction letter. Rural: Aadhaar (mandatory for DBT), job card (MGNREGA), bank account, land ownership/allotment docs, SECC eligibility."}
+      ]
+    },
+    {
+      "id": "doc-mgnrega",
+      "title": "MGNREGA - Mahatma Gandhi National Rural Employment Guarantee",
+      "source_url": "https://nrega.nic.in/",
+      "effective_date": "2024-01-01",
+      "jurisdiction": "central",
+      "domain": "employment",
+      "language": "en",
+      "sections": [
+        {"section_path": "MGNREGA > Overview", "content": "Legal guarantee of 100 days of wage employment per year to every rural household. Work: water conservation, drought proofing, land development, flood control, rural connectivity. Wage: state-specific (Rs 230-350/day). Payment within 15 days via bank/post office. 15+ crore active job cards."},
+        {"section_path": "MGNREGA > How to Get Job Card", "content": "Apply to gram panchayat with passport photo + address proof. Job card issued within 15 days to all adult members of household. Free of cost. Job card is property of household. Contains: household details, photo of all adult members, record of employment, wages paid."},
+        {"section_path": "MGNREGA > Demanding Work", "content": "Submit written application to gram panchayat for work (individual or group). Work must be provided within 15 days of demand, else unemployment allowance payable. Work within 5 km radius. Facilities: drinking water, shade, first aid, creche (for 6+ workers with children under 6). 1/3 of workers must be women."},
+        {"section_path": "MGNREGA > Payment & Transparency", "content": "Wages via bank account/post office only (no cash). Muster rolls (attendance) publicly available on nrega.nic.in. Social audit by gram sabha mandatory every 6 months. Check payment status: nrega.nic.in > Worker Reports. Complaint: toll-free 1800-345-3626 or state helpline."}
+      ]
+    },
+    {
+      "id": "doc-sukanya-samriddhi",
+      "title": "Sukanya Samriddhi Yojana (SSY)",
+      "source_url": "https://www.india.gov.in/sukanya-samriddhi-yojana",
+      "effective_date": "2024-01-01",
+      "jurisdiction": "central",
+      "domain": "finance",
+      "language": "en",
+      "sections": [
+        {"section_path": "SSY > Overview", "content": "Savings scheme for girl child. Interest: 8.2% (Q1 2024-25, highest among small savings). Tax-free under EEE (exempt-exempt-exempt: 80C deduction on deposit, tax-free interest, tax-free maturity). Open in girl's name by guardian. Max 2 accounts (2 daughters). Min deposit: Rs 250/year. Max: Rs 1.5 lakh/year."},
+        {"section_path": "SSY > Rules", "content": "Open from birth to age 10. Deposits for 15 years. Maturity at 21 years from opening. Partial withdrawal: 50% of balance at age 18 for higher education. Premature closure: only for marriage (after age 18) or medical emergency. Account can be transferred between post offices/banks nationwide."},
+        {"section_path": "SSY > How to Open", "content": "Open at any post office or authorized bank (SBI, PNB, BOB, etc). Documents: girl's birth certificate, guardian's ID + address proof, initial deposit (min Rs 250). Account number issued same day. Deposits via cash/cheque/online transfer. Track via passbook or post office/bank app."}
+      ]
+    },
+    {
+      "id": "doc-soil-health-card",
+      "title": "Soil Health Card Scheme",
+      "source_url": "https://soilhealth.dac.gov.in/",
+      "effective_date": "2024-01-01",
+      "jurisdiction": "central",
+      "domain": "agriculture",
+      "language": "en",
+      "sections": [
+        {"section_path": "Soil Health Card > Overview", "content": "Free soil testing and recommendations for every farm holding. Issued every 2 years. Tests 12 parameters: N, P, K, S, Zn, Fe, Cu, Mn, Bo, pH, EC, Organic Carbon. Card provides crop-wise fertilizer recommendations. Over 23 crore cards distributed. Helps reduce fertilizer overuse and improve yield."},
+        {"section_path": "Soil Health Card > How to Get", "content": "Automatic: soil samples collected by state agriculture dept staff from farms in a grid pattern. Can also request via: (1) Visit soil testing lab. (2) Contact block agriculture officer. (3) Apply at soilhealth.dac.gov.in (enter survey number/khasra). Card available online via portal (enter Aadhaar/mobile/card number)."},
+        {"section_path": "Soil Health Card > Using the Card", "content": "Card shows: current nutrient status of soil (deficient/sufficient/excess for each parameter), recommended doses of fertilizers for 6 major crops grown in the area. Follow recommendations to: reduce input cost by 10-15%, improve soil quality over time, get better crop yields. Update: new card every 2 years with fresh testing."}
+      ]
+    },
+    {
+      "id": "doc-umang",
+      "title": "UMANG - Unified Mobile Application for New-age Governance",
+      "source_url": "https://web.umang.gov.in/",
+      "effective_date": "2024-01-01",
+      "jurisdiction": "central",
+      "domain": "general",
+      "language": "en",
+      "sections": [
+        {"section_path": "UMANG > Overview", "content": "Single mobile app for 1,700+ government services from 300+ departments. Available in 13 languages. Services: EPFO (PF balance/claim), DigiLocker, PMKISAN status, Aadhaar, passport, GSTN, land records, scholarship status, train/bus booking, utility bills, Ayushman eligibility check."},
+        {"section_path": "UMANG > Key Services", "content": "Popular services: (1) EPFO - PF passbook, claim status, UAN activation. (2) Income Tax - refund status, PAN verification. (3) PM-KISAN - beneficiary status. (4) Aadhaar - update request, download. (5) Passport - application status. (6) DigiLocker - access documents. (7) CBSE results. (8) Land records (some states). (9) Blood bank search. (10) Crop insurance status."},
+        {"section_path": "UMANG > How to Register", "content": "Download UMANG app (Android/iOS) or visit web.umang.gov.in. Register with mobile + Aadhaar OTP. PIN-based login after registration. No documents needed. All services accessible from one account."}
+      ]
+    },
+    {
+      "id": "doc-crop-insurance",
+      "title": "PM Fasal Bima Yojana (PMFBY) - Crop Insurance",
+      "source_url": "https://pmfby.gov.in/",
+      "effective_date": "2024-01-01",
+      "jurisdiction": "central",
+      "domain": "agriculture",
+      "language": "en",
+      "sections": [
+        {"section_path": "PMFBY > Overview", "content": "Crop insurance at low premium: Kharif 2%, Rabi 1.5%, Commercial/horticulture 5% of sum insured. Government pays remaining premium. Covers: natural calamities, pests, diseases, post-harvest losses (14 days), localized calamities (hailstorm, landslide, flood), prevented sowing. Covers all crops including paddy, wheat, cotton, pulses, oilseeds."},
+        {"section_path": "PMFBY > How to Enroll", "content": "Loanee farmers: auto-enrolled via bank (can opt out). Non-loanee: apply through bank/CSC/insurance company portal/pmfby.gov.in or Crop Insurance App. Need: Aadhaar, bank account, land records (khatauni/lease), sowing certificate from patwari/agriculture officer. Deadline: before sowing season cutoff date."},
+        {"section_path": "PMFBY > Claim Process", "content": "Report crop loss within 72 hours via Crop Insurance App/portal/bank/insurance company/toll-free 14447. Government conducts Crop Cutting Experiments (CCE) at mandal/block level. If yield below threshold (based on 7-year average), claim auto-triggered for entire area. Individual claim: field inspection by insurance company. Payment via DBT within 2 months of CCE data."},
+        {"section_path": "PMFBY > Check Status", "content": "Check at pmfby.gov.in > Application Status or Crop Insurance App. Enter: application number or Aadhaar or mobile. Shows: policy details, premium paid, claim status, payout amount. Season-wise and crop-wise details available."}
+      ]
+    },
+    {
+      "id": "doc-e-shram",
+      "title": "e-Shram - Unorganised Workers Register",
+      "source_url": "https://eshram.gov.in/",
+      "effective_date": "2024-01-01",
+      "jurisdiction": "central",
+      "domain": "employment",
+      "language": "en",
+      "sections": [
+        {"section_path": "e-Shram > Overview", "content": "National database for unorganised sector workers (construction, gig, domestic, street vendors, agricultural labourers, etc.). UAN (Universal Account Number) issued. 30+ crore registrations. Benefits: Rs 2 lakh accidental insurance (PMSBY), future social security schemes linked to e-Shram ID. Free registration."},
+        {"section_path": "e-Shram > Who Can Register", "content": "Any worker aged 16-59 in unorganised sector: construction, domestic, street vendor, home-based, self-employed, gig/platform worker, agricultural labourer, fisherman, beedi worker, MGNREGA worker, auto/rickshaw/taxi driver, mid-day meal worker, anganwadi helper. Must NOT be: EPFO/ESIC member or income tax payer."},
+        {"section_path": "e-Shram > How to Register", "content": "Online at eshram.gov.in (Aadhaar + mobile OTP) or at CSC centre. Need: Aadhaar, mobile linked to Aadhaar, bank account (IFSC), occupation details. e-Shram card issued instantly (digital, download PDF). No documents to upload. Free. Card has UAN number for all future scheme linkages."},
+        {"section_path": "e-Shram > Benefits", "content": "Current: Rs 2 lakh accidental death insurance (PMSBY - premium paid by govt). Future (being linked): PM-SVANidhi (street vendor loans), BOCW (construction worker welfare), PM-JAY health coverage linkage, pension schemes, skill training priority. e-Shram card increasingly accepted as worker ID proof for scheme applications."}
+      ]
+    },
+    {
+      "id": "doc-data-gov",
+      "title": "data.gov.in - Open Government Data Platform",
+      "source_url": "https://data.gov.in/",
+      "effective_date": "2024-01-01",
+      "jurisdiction": "central",
+      "domain": "data",
+      "language": "en",
+      "sections": [
+        {"section_path": "data.gov.in > Overview", "content": "India's Open Government Data platform. 1,00,000+ datasets from 170+ departments. Free API access. Datasets: commodity prices (mandi), weather, agriculture production, demographics, health, education, infrastructure, environment. APIs: REST, JSON/XML/CSV responses. Rate limit: 100 requests/hour per key."},
+        {"section_path": "data.gov.in > API Access", "content": "Register at data.gov.in > API > Generate Key. Instant 32-character key. Endpoints: /resource/{resource_id}?api-key=KEY&format=json&limit=100&offset=0. Filters: field-specific (e.g., state=Maharashtra, commodity=Wheat). Bulk download available for full datasets."},
+        {"section_path": "data.gov.in > Popular Datasets", "content": "Most used: (1) Daily commodity prices (mandi rates for 200+ commodities across 2000+ markets). (2) Real-time air quality (CPCB stations). (3) Pin code directory (all India). (4) Company registration data (MCA). (5) Hospital directory. (6) School list (UDISE). (7) Rainfall data. (8) Census 2011 tables. (9) Road accidents. (10) Crime statistics (NCRB)."},
+        {"section_path": "data.gov.in > Mandi Prices API", "content": "Real-time agricultural commodity prices from mandis (APMC markets) across India. Fields: state, district, market, commodity, variety, arrival_date, min_price, max_price, modal_price. Updated daily. Covers: wheat, rice, onion, potato, tomato, pulses, oilseeds, spices, fruits, vegetables. Resource ID: 9ef84268-d588-465a-a308-a864a43d0070."}
+      ]
+    }
+  ]
+}

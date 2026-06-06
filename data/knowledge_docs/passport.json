@@ -1,0 +1,27 @@
+{
+  "id": "doc-passport",
+  "title": "Indian Passport - Passport Seva",
+  "source_url": "https://www.passportindia.gov.in/",
+  "effective_date": "2024-01-01",
+  "jurisdiction": "central",
+  "domain": "identity",
+  "language": "en",
+  "sections": [
+    {
+      "section_path": "Passport > Types & Fees",
+      "content": "Types: Ordinary (navy blue, 10yr adults/5yr minors), Official (white), Diplomatic (maroon). Fee: Rs 1,500 (36 pages), Rs 2,000 (60 pages). Tatkal: +Rs 2,000."
+    },
+    {
+      "section_path": "Passport > Required Documents",
+      "content": "Need: (1) Address proof - Aadhaar/utility bill/bank statement/voter ID/rent agreement. (2) DOB proof - birth certificate (born after 1989)/SLC/Aadhaar. (3) Old passport (reissue). Annexes: E (orphans), F (no birth cert), H (name change after marriage), I (appearance change)."
+    },
+    {
+      "section_path": "Passport > Application Process",
+      "content": "Steps: (1) Register passportindia.gov.in. (2) Fill application. (3) Pay online. (4) Book PSK/POPSK appointment. (5) Visit with originals. (6) Doc verification + biometrics. (7) Police verification 1-3 weeks. (8) Dispatched via Speed Post. Time: 7-21 days normal, 1-3 days tatkal."
+    },
+    {
+      "section_path": "Passport > Status Tracking",
+      "content": "Track at passportindia.gov.in or mPassport Seva app. Enter file number. Stages: Applied > Verified > PV Initiated > PV Completed > Granted > Printed > Dispatched. SMS alerts at each stage."
+    }
+  ]
+}

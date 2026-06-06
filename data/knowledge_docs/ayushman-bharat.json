@@ -1,0 +1,27 @@
+{
+  "id": "doc-ayushman-bharat",
+  "title": "Ayushman Bharat PM-JAY",
+  "source_url": "https://pmjay.gov.in/",
+  "effective_date": "2024-01-01",
+  "jurisdiction": "central",
+  "domain": "health",
+  "language": "en",
+  "sections": [
+    {
+      "section_path": "PM-JAY > Overview",
+      "content": "Health insurance Rs 5 lakh/family/year for hospitalization. 55 crore beneficiaries (12 crore families). Cashless at 30,000+ empanelled hospitals. No cap on family size/age/gender. Pre-existing conditions covered from day one."
+    },
+    {
+      "section_path": "PM-JAY > Eligibility",
+      "content": "Based on SECC 2011. Rural: kucha house, no adult 16-59, female-headed, disabled, SC/ST, landless, manual labour. Urban: rag picker, beggar, domestic worker, street vendor, construction worker, plumber, sweeper, security guard, rickshaw puller."
+    },
+    {
+      "section_path": "PM-JAY > How to Check & Get Card",
+      "content": "Check: (1) pmjay.gov.in > Am I Eligible. (2) Call 14555. (3) Visit Ayushman Mitra at hospital. (4) CSC centre. If eligible, get free Ayushman card with photo and QR."
+    },
+    {
+      "section_path": "PM-JAY > Treatment Process",
+      "content": "Steps: (1) Visit empanelled hospital. (2) Show card or Aadhaar biometric verification. (3) Hospital generates pre-auth. (4) Cashless treatment. (5) Hospital claims from insurer. 1,949 packages: cardiology, oncology, orthopedics, neurosurgery, burns, dialysis, cataract, mental health. 3-day pre and 15-day post hospitalization covered."
+    }
+  ]
+}

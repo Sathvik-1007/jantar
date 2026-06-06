@@ -1,0 +1,45 @@
+[project]
+name = "jantar"
+version = "1.0.0"
+description = "Agentic Layer for Indian Government Services"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.136.0",
+    "uvicorn[standard]>=0.49.0",
+    "httpx>=0.28.0",
+    "pydantic>=2.13.0",
+    "pydantic-settings>=2.14.0",
+    "qdrant-client>=1.18.0",
+    "FlagEmbedding>=1.4.0",
+    "sentence-transformers>=5.0.0",
+    "torch>=2.10.0",
+    "rich>=15.0.0",
+    "typer>=0.15.0",
+    "python-dotenv>=1.2.0",
+    "json-repair>=0.30.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=9.0.0",
+    "pytest-asyncio>=0.24.0",
+    "ruff>=0.8.0",
+]
+
+[project.scripts]
+jantar = "jantar.cli.main:app"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/jantar"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]

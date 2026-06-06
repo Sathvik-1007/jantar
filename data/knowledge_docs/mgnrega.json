@@ -1,0 +1,27 @@
+{
+  "id": "doc-mgnrega",
+  "title": "MGNREGA - Mahatma Gandhi National Rural Employment Guarantee",
+  "source_url": "https://nrega.nic.in/",
+  "effective_date": "2024-01-01",
+  "jurisdiction": "central",
+  "domain": "employment",
+  "language": "en",
+  "sections": [
+    {
+      "section_path": "MGNREGA > Overview",
+      "content": "Legal guarantee of 100 days of wage employment per year to every rural household. Work: water conservation, drought proofing, land development, flood control, rural connectivity. Wage: state-specific (Rs 230-350/day). Payment within 15 days via bank/post office. 15+ crore active job cards."
+    },
+    {
+      "section_path": "MGNREGA > How to Get Job Card",
+      "content": "Apply to gram panchayat with passport photo + address proof. Job card issued within 15 days to all adult members of household. Free of cost. Job card is property of household. Contains: household details, photo of all adult members, record of employment, wages paid."
+    },
+    {
+      "section_path": "MGNREGA > Demanding Work",
+      "content": "Submit written application to gram panchayat for work (individual or group). Work must be provided within 15 days of demand, else unemployment allowance payable. Work within 5 km radius. Facilities: drinking water, shade, first aid, creche (for 6+ workers with children under 6). 1/3 of workers must be women."
+    },
+    {
+      "section_path": "MGNREGA > Payment & Transparency",
+      "content": "Wages via bank account/post office only (no cash). Muster rolls (attendance) publicly available on nrega.nic.in. Social audit by gram sabha mandatory every 6 months. Check payment status: nrega.nic.in > Worker Reports. Complaint: toll-free 1800-345-3626 or state helpline."
+    }
+  ]
+}

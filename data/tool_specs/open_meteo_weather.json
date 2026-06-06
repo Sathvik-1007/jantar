@@ -1,0 +1,27 @@
+{
+  "name": "open_meteo_weather",
+  "description": "Current weather and 7-day forecast for any Indian city. Temperature, humidity, rain, wind. Free, no API key.",
+  "domain": "weather",
+  "auth_method": "open",
+  "base_url": "https://api.open-meteo.com",
+  "endpoint": "/v1/forecast",
+  "http_method": "GET",
+  "input_schema": {
+    "city": "string (Indian city name)",
+    "days": "integer (1-7, default 1)"
+  },
+  "output_schema": {
+    "temperature": "float (celsius)",
+    "humidity": "integer (percent)",
+    "wind_speed": "float (km/h)",
+    "rain": "float (mm)"
+  },
+  "examples": [
+    "What's the weather in Delhi?",
+    "दिल्ली का मौसम कैसा है?",
+    "Will it rain tomorrow in Mumbai?"
+  ],
+  "contextual_description": "Real-time weather forecast for Indian cities including temperature, humidity, precipitation, and wind. Covers 50+ major Indian cities. No authentication required.",
+  "rate_limit": 1000,
+  "sensitivity": "low"
+}

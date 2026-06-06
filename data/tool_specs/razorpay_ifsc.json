@@ -1,0 +1,29 @@
+{
+  "name": "razorpay_ifsc",
+  "description": "Bank branch details by IFSC code. Bank name, branch, address, city, district, state, MICR code. RBI-regulated banking infrastructure. Free, no API key.",
+  "domain": "banking",
+  "auth_method": "open",
+  "base_url": "https://ifsc.razorpay.com",
+  "endpoint": "/{ifsc}",
+  "http_method": "GET",
+  "input_schema": {
+    "ifsc": "string (11-char IFSC code like SBIN0001234)"
+  },
+  "output_schema": {
+    "bank": "string",
+    "branch": "string",
+    "address": "string",
+    "city": "string",
+    "district": "string",
+    "state": "string",
+    "micr": "string"
+  },
+  "examples": [
+    "What bank has IFSC SBIN0001234?",
+    "IFSC कोड HDFC0000001 का बैंक?",
+    "Bank details for ICIC0000001"
+  ],
+  "contextual_description": "Bank IFSC code lookup returning full branch details. Covers all Indian banks registered with RBI. MIT-licensed open data from Razorpay.",
+  "rate_limit": 0,
+  "sensitivity": "low"
+}
