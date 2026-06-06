@@ -589,35 +589,123 @@ jantar/
 
 ---
 
-## Beyond Scope — Whitepaper vs What's Built
+## Future Plan — From PoC to National-Scale Agentic Layer
 
-This project implements a working subset of the [NIC Agentic Layer Whitepaper](../NIC_Agentic_Layer_Whitepaper.md) architecture. The whitepaper describes a national-scale system operating hundreds of agents across thousands of NAPIX APIs. Here's what's implemented vs what requires infrastructure beyond the scope of this project:
+This project implements the whitepaper's **Phase 0 (Pilot)**: proving an agent can complete real citizen journeys end-to-end using plain language across 22 Indian languages. Below is the concrete execution plan for subsequent phases, derived from the [NIC Agentic Layer Whitepaper](../NIC_Agentic_Layer_Whitepaper.md).
 
-### Implemented (this repo)
+---
 
-| Whitepaper Layer | What's Built |
-|---|---|
-| **Interface** (multilingual, multi-channel) | 22-language CLI + REST API with auto-detect. Single channel (text). |
-| **Orchestration & planning** | Single-agent classifier + executor. Plans tool vs knowledge path per query. |
-| **Tool registry & adapters** | 40 tools registered across 25 domains (agriculture, health, education, crime, energy, weather, postal, banking, transport, etc). 4 adapter classes. 6 tools with live no-auth API calls. |
-| **Model layer** (small/large routing) | Single model (sarvam-30b) for all tasks. Gateway abstraction ready for routing. |
-| **Governance & audit** | Audit trail per run. Logging to file. API auth. No sensitive-action gates yet. |
-| **Execution & reliability** | Stateless per-request. No durable state, no crash recovery. |
+### Where We Are Now (Phase 0 — Pilot)
 
-### Requires infrastructure not available to this project
+| Whitepaper Layer | Current State | Grade |
+|---|---|---|
+| **Interface** — multilingual, multi-channel | 22 languages, CLI + REST API, auto-detect | Strong |
+| **Orchestration & planning** — decompose, sequence, retry | Plan-and-Execute planner (max 5 steps), conversation memory, single-agent | Adequate |
+| **Tool registry & adapters** — catalogue of callable tools | 137,362 APIs indexed, 7 live adapters, hybrid RAG at 0.99 scores | Excellent |
+| **Model layer** — SLM/LLM routing | Single model (sarvam-30b). Gateway abstraction ready for routing. | Partial |
+| **Execution & reliability** — durable state, idempotency | Stateless per-request. No crash recovery. | Not Built |
+| **Governance & audit** — access control, immutable logs, approval gates | Structured logging, API auth, audit trail per run. No approval gates. | Partial |
 
-| Whitepaper Requirement | Why it's out of scope |
-|---|---|
-| **Hundreds of agents, thousands of tools** | Needs NAPIX onboarding (NIC partnership), durable execution engine, horizontal scaling |
-| **On-premise sovereign model hosting** | Needs NIC National Cloud access (MeghRaj/IndiaAI), vLLM/SGLang deployment |
-| **Self-improvement loop** | Needs months of production data + human evaluators |
-| **Human-approval gates** | Needs institutional workflow integration (officers, approval chains) |
-| **Production Aadhaar/UPI/GSTN/DigiLocker** | Needs legal empanelment, infra audit, bank sponsorship |
-| **Multi-channel (WhatsApp, IVR, SMS)** | Needs carrier/platform partnerships |
-| **Durable execution** (days-long runs) | Needs event-sourced engine (Temporal-like) — designed but not built |
-| **National-scale traffic** (tens of thousands concurrent) | Needs load balancers, queue workers, autoscaling on government cloud |
+---
 
-The architecture is designed to grow into these. The gateway abstraction, adapter pattern, and domain-routing all exist specifically so that scaling from 40 → 5,000 tools doesn't require rewriting the core.
+### Phase 1 — Foundation (Next)
+
+**Goal:** Harden the runtime. Add SLM/LLM routing, durable execution, and the audit layer. Onboard first production NAPIX APIs.
+
+| Deliverable | What it solves | Technical approach |
+|---|---|---|
+| **Small/Large model routing** | 90%+ of steps (classify, extract, validate) go to a 2-7B SLM. Only planning → large model. 5-10x cost reduction. | Route by task type: classification/extraction → SLM (Qwen-2.5-7B / Sarvam-2B on CUDA); planning/synthesis → sarvam-30b/105b. Pluggable via `llm/router.py`. |
+| **Durable execution engine** | Agents survive crashes; long-running journeys (passport, property mutation) wait days for external steps without losing state. | Event-sourced on PostgreSQL. Each step is a stored event. Resume from last successful event on restart. Idempotent external calls (hash-based dedup). |
+| **Self-improvement loop** | After each run: was the journey completed? Right tools chosen? Any failures? Propose improvements. Human reviews before deployment. | Log every run → batch-evaluate weekly → LLM-as-judge scores quality → proposes prompt/routing changes → human approves → CI deploys. |
+| **API Setu onboarding** | Unlock DL/RC/DigiLocker verification — the most requested citizen journeys. | Register as consumer at partners.apisetu.gov.in → subscribe to transport/identity APIs → get credentials → add adapters. |
+| **DSPy + GEPA prompt optimization** | Auto-optimize classifier and answer prompts. +10-12% accuracy over manual prompting (ICLR 2026, verified). | Compile prompts against golden test sets using DSPy's `BootstrapFewShotWithOptuna` + GEPA's Genetic-Pareto reflective optimizer. No manual prompt engineering. |
+
+---
+
+### Phase 2 — Scale
+
+**Goal:** Grow to thousands of registered tools and dozens of specialist agents. New APIs arrive as registration, not engineering.
+
+| Deliverable | What it solves | Technical approach |
+|---|---|---|
+| **Multi-agent orchestration** | Complex journeys spanning 4-5 APIs (e.g., "check permit → if expired → start renewal → list documents → book slot") need specialist sub-agents. | Hermes-style multi-agent: orchestrator decomposes → dispatches to domain sub-agents (transport, health, identity, land) → collects results → synthesizes. Each sub-agent has its own tool set and memory. |
+| **Human-approval gates** | Sensitive operations — money movement, legal record changes, personal data release — must pause for officer approval. | Checkpoint in execution flow: when a step is tagged `requires_approval`, persist state, notify approver (webhook/email), and resume only after explicit approval event. Immutable audit log of all approvals. |
+| **Full NAPIX integration** | Every API published on NAPIX auto-registers as a tool. Catalogue grows from 137K → full NAPIX breadth (courts, land, identity, health). | Adapter generator: parse NAPIX OpenAPI specs → auto-generate tool descriptors + adapter code. Onboarding cost per new API = registration task, not engineering project. |
+| **Voice I/O** | Full voice-in / voice-out for rural access, IVR for CSC operators. | Sarvam STT (saaras:v3, 23 languages, auto-detect) → agent pipeline → Sarvam TTS (bulbul:v3, 11 languages, 30+ voices). WebSocket streaming for real-time. |
+| **GraphRAG for eligibility** | Multi-hop questions: "which schemes am I eligible for given my district + income + category?" | Build a knowledge graph of scheme eligibility rules (income thresholds, caste categories, geographical constraints). Traverse graph to find matching schemes. |
+| **Evaluation as CI gate** | No code merges without passing golden-set eval. Quality claims are always backed by runnable proof. | Golden sets per domain (transport, health, finance). Automated Recall@5, MRR, answer correctness. PR check: if any metric drops > 2%, block merge. |
+
+---
+
+### Phase 3 — Citizen Scale
+
+**Goal:** Multi-channel, multi-tenant, national-scale. Hundreds of agents, tens of thousands of concurrent API calls.
+
+| Deliverable | What it solves | Technical approach |
+|---|---|---|
+| **Multi-channel interface** | Citizens access via WhatsApp, Telegram, IVR, SMS, web — not just CLI/API. | Hermes-style messaging gateway. Same agent runtime → multiple channel adapters. WhatsApp via official Business API. IVR via Bhashini/Sarvam STT+TTS bridge. |
+| **On-premise sovereign model hosting** | All data stays on NIC National Cloud. No citizen data leaves government infrastructure. | Deploy Qwen-2.5/Mistral/Sarvam SLMs on NIC MeghRaj cloud via vLLM/SGLang. Models pluggable via `llm/router.py`. Fetch-execute-forget: no data retention. |
+| **Horizontal scaling** | Tens of thousands of concurrent users, hundreds of agents. | Kubernetes on NIC cloud. Queue workers (Redis/NATS) for async execution. Qdrant sharded cluster. Load-balanced API gateways. Auto-scaling by domain queue depth. |
+| **CSC operator interface** | Village Level Entrepreneurs (5 lakh CSC network) use the system to serve citizens at physical access points. Per-journey revenue sharing. | Dedicated CSC dashboard: operator inputs citizen request → agent completes journey → operator confirms with citizen → revenue credited per resolved journey (₹5-8/journey). |
+| **Production government APIs** | Aadhaar, UPI, GSTN, DigiLocker, eCourts — the journeys citizens need most. | Requires: AUA/KUA empanelment (Aadhaar), PSP/bank sponsorship (UPI), GST Suvidha Provider license (GSTN), formal Requester partnership (DigiLocker). Timeline: 6-18 months per API. |
+| **Data handling & sovereignty** | Strongest privacy posture: fetch-execute-forget. Agent pulls only what a step needs, uses it, retains nothing. | Zero data storage by design. All intermediate data in encrypted memory, garbage-collected after response. Combined with on-premise hosting → citizen data never stored or sent externally. |
+
+---
+
+### 25 Real Citizen Journeys This Architecture Enables
+
+These are the multi-step, multi-API workflows the whitepaper envisions — each currently requiring bespoke developer integration:
+
+| # | Journey | APIs Needed | Status |
+|---|---|---|---|
+| 1 | Check EPFO claim status + rejection reason + resubmit guidance | EPFO UAN, DigiLocker | Requires API access |
+| 2 | Update Aadhaar-linked mobile number | UIDAI Auth, Resident Services | Requires AUA empanelment |
+| 3 | Get income certificate → submit to college → track status | MeeSeva/DigiLocker, state revenue, e-District | State-level integration |
+| 4 | Check land mutation status + flag encumbrances | Bhoomi/Dharani (state), Registration Dept | State-by-state, no unified API |
+| 5 | Check ration card active → update family → find nearest PDS | NFS API, state FCS | State portals differ wildly |
+| 6 | Check pending GST liability + draft return | GSTN, e-Invoice | Requires GSP license |
+| 7 | Aggregate pending court dates + send reminders | eCourts (NIC-internal) | No public endpoint |
+| 8 | Apply for water connection + track + pay deposit | State ULB APIs | Municipal systems inconsistent |
+| 9 | Get certified copy of sale deed online | NGDRS, state registration | State-by-state portals |
+| 10 | Check DL expiry → start renewal → pre-fill details | Sarathi/Parivahan | Requires API Setu partner access |
+| 11 | Fetch Class 10 marksheet from DigiLocker + verify institution | DigiLocker, UGC | Requires Requester partnership |
+| 12 | Check PM-KISAN status + update bank account if bounced | PM-KISAN, PFMS, Aadhaar seeding | Multiple gated APIs |
+| 13 | Find all scholarships eligible for + auto-apply | NSP, state scholarship APIs | No eligibility-first API |
+| 14 | Check building plan approval + get occupancy certificate | OBPAS, state town planning | State-level, fragmented |
+| 15 | Verify employee's police verification certificate | Police verification (state), Criminal Records | No centralized check |
+| 16 | Track passport application through police verification + dispatch | Passport Seva, India Post tracking | API Setu partner access |
+| 17 | Check family PMJAY health insurance claims | PMJAY/Ayushman Bharat | Requires ABDM approval |
+| 18 | Renew trade license before expiry + pay fee | ULB trade license, payment gateway | Municipal systems |
+| 19 | Find district court case status in local language | eCourts + translation | eCourts API (NIC-internal) |
+| 20 | Check environmental compliance clearance validity | MoEFCC Parivesh, CPCB | Portal-only, no public API |
+| 21 | Apply for arms license renewal + book slot | MHA/state home department | Fully manual currently |
+| 22 | Aggregate ITR + TDS + demand notices into one view | TRACES, ITR filing, tax demand | Multiple separate portals |
+| 23 | Verify property document authenticity for a tenant | NGDRS/Bhoomi, state registration | State-level scraping |
+| 24 | Check Startup India eligibility + initiate DPIIT registration | DPIIT Startup India, MCA21 | Multi-form, unclear eligibility |
+| 25 | Track MGNREGA attendance + pending wage payments | MGNREGS (NREGASoft), PFMS | Data quality issues |
+
+**What Jantar can do TODAY for these:** provide verified knowledge answers (documents needed, process steps, eligibility criteria, where to apply, fees) for ALL 25 journeys via the knowledge base. **What requires future phases:** actually EXECUTING the journey (making API calls, submitting forms, tracking status) — which needs the production API access listed above.
+
+---
+
+### The Core Principle (from the whitepaper)
+
+> *"The cost of adding the next government service should stay flat. If onboarding API number five hundred is as easy as API number five, the architecture is working."*
+
+Jantar's adapter pattern, domain routing, and RAG-based tool selection are built exactly for this. Adding a new API = adding a JSON tool spec + an adapter method. No rewriting the orchestration core. The architecture scales from 7 custom tools to 137K catalog entries without structural change — validated by this repo.
+
+---
+
+### Market Context
+
+| Metric | Value | Source |
+|---|---|---|
+| NAPIX total API hits | 50 billion+ | NIC official (2025) |
+| API Setu published APIs | 1,147+ (MeitY publishers alone) | apisetu.gov.in |
+| data.gov.in resources | 285,000+ | data.gov.in catalog API |
+| CSC network (distribution) | 5 lakh+ Village Level Entrepreneurs | csc.gov.in |
+| India citizen services AI TAM | ~$19.7B (2025) → ~$102B by 2030 | Grand View Research |
+| India AI for government SAM | ~$1-1.4B (2025 est.) | PIB March 2026 |
 
 ---
 
