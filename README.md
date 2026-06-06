@@ -381,47 +381,46 @@ Set `LOG_LEVEL=DEBUG` in `.env` for verbose output including query embeddings an
 
 ```mermaid
 flowchart TD
-A[User Query - any Indian language] --> B[Sarvam Translate]
-B -->|auto-detect + translate| C[Classifier - Sarvam-30b]
-C -->|tool_action| D[Tool RAG]
-C -->|knowledge_query| E[Knowledge RAG]
-C -->|hybrid| D & E
-C -->|multi_step| P[Plan-and-Execute Planner]
+    A[User Query - any Indian language] --> B[Sarvam Translate]
+    B --> C[Classifier - Sarvam-30b]
+    C -->|tool_action| D[Tool RAG]
+    C -->|knowledge_query| E[Knowledge RAG]
+    C -->|hybrid| D
+    C -->|hybrid| E
+    C -->|multi_step| P[Planner]
 
-subgraph Planner
-    P --> P1[Create Plan - LLM decomposes into steps]
-    P1 --> P2[Execute Step 1 - tool or knowledge]
-    P2 --> P3[Execute Step 2...]
-    P3 --> P4[Synthesize all results]
-end
+    P --> P1[Decompose into steps]
+    P1 --> P2[Execute each step]
+    P2 --> P4[Synthesize results]
 
-subgraph RAG_Pipeline[RAG Pipeline]
     D --> D1[BGE-M3 Dense 1024-dim]
-    D --> D2[BGE-M3 Sparse - Learned Lexical]
-    D1 & D2 --> D3[Reciprocal Rank Fusion k=60]
-    D3 --> D4[BGE-reranker-v2-m3 Cross-Encoder]
-    D4 --> D5{Score > 0.05?}
+    D --> D2[BGE-M3 Sparse Learned Lexical]
+    D1 --> D3[Reciprocal Rank Fusion]
+    D2 --> D3
+    D3 --> D4[BGE-reranker-v2-m3]
+    D4 --> D5{Score above 0.05}
     D5 -->|Yes| D6[Execute Tool via Adapter]
-    D5 -->|No| D7[Reject - irrelevant]
+    D5 -->|No| D7[Reject]
 
     E --> E1[BGE-M3 Dense + Sparse]
     E1 --> E2[RRF Fusion]
-    E2 --> E3[Reranker - top 5]
+    E2 --> E3[Reranker top-5]
     E3 --> E4[Parent Document Expansion]
-    E4 --> E5[Citations Extracted]
-end
+    E4 --> E5[Citations]
 
-D6 --> F[Sarvam-30b Answer Generation]
-E5 --> F
-P4 --> F
-M[Conversation Memory] -.->|context| C & F
-F --> G[Answer in user's language + citations + audit trail]
+    D6 --> F[Sarvam-30b Answer Generation]
+    E5 --> F
+    P4 --> F
+    F --> G[Answer in users language + citations]
 
-subgraph Infrastructure
-    H[(Qdrant - 137K+ tools)] -.-> D1 & D2 & E1
-    J[Sarvam API] -.-> B & C & F
-    K[(Qdrant - 82 knowledge chunks)] -.-> E1
-end
+    H[(Qdrant 137K tools)] -.-> D1
+    H -.-> D2
+    K[(Qdrant 82 knowledge chunks)] -.-> E1
+    J[Sarvam API] -.-> B
+    J -.-> C
+    J -.-> F
+    M[Conversation Memory] -.-> C
+    M -.-> F
 ```
 
 ### RAG Pipeline
